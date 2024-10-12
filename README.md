@@ -1,3 +1,23 @@
+# Machine-learning (Neural Networks and Image Classification)
+This is a collection of machine learning projects.
+The content contains several tasks
+
+Task 1
+Classifier training on MNIST using a self-constructed network.
+
+Task 2
+Predicting the Boston house price dataset (built-in Sklearn data) using a self-built network.
+
+Task 3
+The third task was given a fraud detection dataset from the Texas A&M International University Dataverse.
+The dataset itself has been PCA-dimensionally reduced and is basically impossible to understand visually, so we use this data for pure neural network classifier training. Attempts were made to train the classifier to over 70% accuracy.
+
+Tips:
+1. MNIST classifier here if you want to further improve the accuracy, you can consider adjusting the network architecture or increase the number of layers, adjust the learning rate or try different optimisers for these, you can also introduce some regularisation methods such as dropout to prevent overfitting.
+2. For the prediction task of the Boston house price dataset, a linear regression model is used and the model error is evaluated, in order to get better model performance, other more complex models can be tried, such as decision trees, random forests or gradient boosting trees.
+3. As for the fraud detection dataset, LightGBM was used to train the classifiers and output the evaluation metrics.
+
+
 # Machine-learning(神经网络与Image Classification)
 这个是机器学习的一些项目
 内容包含了几个任务
